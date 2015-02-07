@@ -1,7 +1,7 @@
 # BrewBox
 An arduino HERMS controller
 
-TODO
+## TODO
 
 With only a controller and no hardware, I first need to work on the 
 State Machine:   
@@ -12,3 +12,10 @@ State Machine:
 Once I add a temp sensor and heater/relay:   
 - PID
 - PID frontend
+
+## Outline
+
+Menu prompts for a setpoint while displaying the current setpoint.   
+
+On command, run the PID and display the mash temp, updating regularly.   
+
