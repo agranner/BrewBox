@@ -12,8 +12,8 @@ operatingState opState = OFF;
 
 void setup()
 {
-	Serial.begin(9600)
-	pinMode(LEDpin, OUTPUT)
+	Serial.begin(9600);
+	pinMode(LEDpin, OUTPUT);
 }
 
 
